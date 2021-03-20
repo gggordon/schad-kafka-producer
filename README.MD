@@ -27,6 +27,7 @@ It expects a json stream source - see https://github.com/gggordon/schad-clickste
 A sample line would look like (using `json` output format)
 ```
 {"customerId":7869,"browser_y_position":1097.1743,"zipCode":28804,"browser_x_position":774.58954,"productId":1274,"date_time":"2020/05/18 15:31:05"}
+```
 
 ## TODO
 
@@ -96,7 +97,6 @@ docker run --name my-schad-kafka-producer -e KAFKA_BOOTSTRAP_SERVERS="192.168.1.
 ```
 
 ## Change Log
-
 
 #### 1.0.0 - Initial Release
 - SCHAD Kafka Producer
